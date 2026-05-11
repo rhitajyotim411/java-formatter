@@ -28,6 +28,14 @@ name.
 VS Code does not need the XML file to be downloaded into each project. The Java
 extension reads the formatter profile directly from the raw GitHub URL.
 
+For this to work easily across machines, keep this repository public. A private
+GitHub raw URL requires authentication, and putting personal access tokens in
+`settings.json` is not recommended.
+
+If the formatter must stay private, use a local file path or host the XML behind
+an internal URL that every developer can access without embedding secrets in
+project settings.
+
 ## Maven Spotless
 
 Spotless uses a local formatter file path in the configuration below, so copy
