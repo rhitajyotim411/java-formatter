@@ -1,0 +1,4 @@
+{
+  "java.format.settings.url": "https://raw.githubusercontent.com/<owner>/<repo>/main/eclipse-java-marionette-style.xml",
+  "java.format.settings.profile": "MarionetteStyle"
+}
